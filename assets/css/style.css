@@ -602,8 +602,40 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 70px;
   font-family: "Poppins", sans-serif;
+  align-items: center;
+
+  
+}
+.aboutUs {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #151515;
+}
+.about h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.about h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffde9e;
+  margin: 4px 10px;
 }
 
 .about .content ul {
@@ -626,6 +658,10 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.aboutP{
+  font-size: 29px;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1042,10 +1078,12 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  
   margin: 0 auto;
 }
-
+.testimonial-img{
+  padding-bottom:35px;
+}
 .testimonials .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
